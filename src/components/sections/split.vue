@@ -21,4 +21,8 @@
   .split-copy { background: var(--dark); color: white; padding: 90px 10%; display: flex; flex-direction: column; justify-content: center; }
   .split-copy h2 { font-size: clamp(34px, 4vw, 55px); line-height: 1.06; letter-spacing: -.05em; margin: 10px 0 20px; }
   .split-copy p { color: #bfc3c1; max-width: 470px; margin-bottom: 28px; font-size: 14px; }
+  @media (max-width: 850px) {
+  .split { grid-template-columns:1fr; }
+  .split-image { min-height:420px; }
+  }
 </style>

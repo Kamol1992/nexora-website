@@ -13,5 +13,8 @@ export default {
 </script>
 
 <style>
-
+@media (max-width: 850px) {
+  .nav { padding-inline:18px; }
+  .nav-links { display:none; }
+}
 </style>

@@ -20,8 +20,17 @@
   import Info from '../components/sections/contact-info.vue'
   import Cta from '../components/sections/cta-contact.vue'
   import Map from '../components/sections/map-contact.vue'
+
+  import { useSeo } from '@/composables/useSeo'
+
+  useSeo({
+    title: 'Nexora — Contact',
+    description: 'Get in touch with Nexora to discuss your architectural project or request more information. We offer professional guidance, quick communication and a personalized approach to every client.'
+  })
 </script>
 
 <style>
-
+  @media (max-width: 850px) {
+  .contact-layout { grid-template-columns:1fr; }
+}
 </style>

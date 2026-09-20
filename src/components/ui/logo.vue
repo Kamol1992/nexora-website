@@ -2,10 +2,8 @@
   <router-link :to="{ name: 'home' }" class="logo"><span class="logo-mark"></span>NEXORA</router-link>
 </template>
 
-<script>
-export default {
+<script setup>
 
-}
 </script>
 
 <style scoped>

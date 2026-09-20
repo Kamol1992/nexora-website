@@ -45,4 +45,14 @@
   .feature h3 { font-size: 15px; margin-bottom: 9px; }
   .feature p { color: var(--muted); font-size: 12px; }
 
+  @media (max-width: 850px) {
+  .feature-grid, .projects, .team, .values-grid, .footer-grid { grid-template-columns:1fr 1fr; }
+  .feature:nth-child(2) { border-right:0; }
+}
+
+@media (max-width: 560px) {
+  .feature-grid, .projects, .team, .values-grid, .footer-grid, .form-row { grid-template-columns:1fr; }
+  .feature { border-right:0; border-bottom:1px solid var(--line); }
+}
+
 </style>
