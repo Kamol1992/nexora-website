@@ -3,17 +3,17 @@
     <div class="container">
       <div class="section-head">
         <div>
-          <div class="section-kicker">Selected work</div>
-          <h2>Featured Projects</h2>
+          <div class="section-kicker">{{t('projects.kicker')}}</div>
+          <h2>{{t('projects.title')}}</h2>
         </div>
-        <Button :to="{name: 'contact'}" variant="link">View all projects →</Button>
+        <Button :to="{name: 'contact'}" variant="link">{{ t('projects.viewAll') }} →</Button>
       </div>
       <div class="projects">
         <article v-for="(project, index) in projects" :key="index" class="project">
           <img :src="project.img">
           <div class="project-body">
-            <h3>{{project.title}}</h3>
-            <span>{{project.subtitle}}</span>
+            <h3>{{t(`projects.${project.title}`)}}</h3>
+            <span>{{t(`projects.${project.subtitle}`)}}</span>
           </div>
         </article>
       </div>
@@ -26,10 +26,13 @@
   import photo1 from '@/assets/images/projects/photo-modern-villa.avif'
   import photo2 from '@/assets/images/projects/photo-office-building.avif'
   import photo3 from '@/assets/images/projects/photo-green-residence.avif'
+
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
   const projects = [
-    {img:photo1, title: 'Modern Villa', subtitle: 'Residential'},
-    {img:photo2, title: 'Office Building', subtitle: 'Commercial'},
-    {img:photo3, title: 'Green Residence', subtitle: 'Residential'}
+    {img:photo1, title: 'villa', subtitle: 'residential'},
+    {img:photo2, title: 'office', subtitle: 'commercial'},
+    {img:photo3, title: 'greenResidence', subtitle: 'residential'}
   ]
 
 </script>

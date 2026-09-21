@@ -1,15 +1,15 @@
 <template>
     <nav class="nav-links">
-      <router-link :to="{ name: 'home' }">Home</router-link>
-      <router-link :to="{ name: 'about' }">About</router-link>
-      <router-link :to="{ name: 'contact' }">Contact</router-link>
+      <router-link :to="{ name: 'home' }">{{t('nav.home')}}</router-link>
+      <router-link :to="{ name: 'about' }">{{t('nav.about')}}</router-link>
+      <router-link :to="{ name: 'contact' }">{{t('nav.contact')}}</router-link>
   </nav>
 </template>
 
-<script>
-export default {
+<script setup>
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
 
-}
 </script>
 
 <style>

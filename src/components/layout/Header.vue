@@ -3,7 +3,8 @@
     <div class="nav">
         <Logo/>
         <Nav />
-        <Button :to="{name: 'contact'}" variant="dark" size="md">Get in Touch</Button>
+        <!-- <Button :to="{name: 'contact'}" variant="dark" size="md">Get in Touch</Button> -->
+        <SwitchLang />
     </div>
 
   </header>
@@ -14,6 +15,7 @@
   import { RouterLink } from 'vue-router'
   import Logo from '../ui/logo.vue'
   import Button from '../ui/button.vue'
+  import SwitchLang from '../sections/switch-lang.vue'
 </script>
 
 <style scoped>

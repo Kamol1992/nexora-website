@@ -3,35 +3,21 @@
     <div class="container feature-grid">
         <article v-for="(feature, index) in features" :key="index" class="feature">
           <div class="icon">{{feature.icon}}</div>
-          <h3>{{feature.title}}</h3>
-          <p>{{feature.text}}</p>
+          <h3>{{t(`features.${feature.key}Title`)}}</h3>
+          <p>{{t(`features.${feature.key}Text`)}}</p>
         </article>
     </div>
   </section>
 </template>
 
 <script setup>
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
   const features = [
-  {
-    icon: '⌘',
-    title: 'Modern Design',
-    text: 'We combine creativity, functionality and efficiency to bring your vision to life.'
-  },
-  {
-    icon: '♧',
-    title: 'Sustainable Solutions',
-    text: 'Thoughtful materials and responsible planning for a better future.'
-  },
-  {
-    icon: '▣',
-    title: 'Project Management',
-    text: 'From first sketch to final handover, we keep every detail moving.'
-  },
-  {
-    icon: '♙',
-    title: 'Quality Craftsmanship',
-    text: 'Precise execution and close collaboration with trusted partners.'
-  }
+  { icon: '⌘', key: 'modernDesign' },
+  { icon: '♧', key: 'sustainable' },
+  { icon: '▣', key: 'management' },
+  { icon: '♙', key: 'craftsmanship' }
 ]
 
 </script>

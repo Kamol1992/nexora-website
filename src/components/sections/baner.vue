@@ -1,11 +1,11 @@
 <template>
   <section class="baner">
     <div class="container baner-content">
-      <div class="eyebrow">Building the future</div>
-      <h1>We create spaces that inspire.</h1>
-      <p>Nexora is a modern architecture studio delivering innovative and sustainable design solutions.</p>
+      <div class="eyebrow">{{ t('hero.eyebrow')}}</div>
+      <h1>{{ t('hero.title')}}</h1>
+      <p>{{ t('hero.subtitle')}}</p>
       <Button href="/" variant="gold" size="md">
-        Explore our work
+        {{ t('hero.cta')}}
         <span>→</span>
       </Button>
     </div>
@@ -14,6 +14,8 @@
 
 <script setup>
 import Button from '../ui/button.vue'
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 </script>
 
 <style scoped>

@@ -22,18 +22,6 @@
     description: 'Modern architecture and sustainable design solutions.'
   })
 
-  // useHead({
-  //   title: 'Nexora - Home',
-  //   meta: [
-  //   { name: 'description', content: 'Modern architecture and sustainable design solutions.' },
-  //   { name: 'keywords', content: 'architecture, design, modern, sustainable' },
-  //   { property: 'og:title', content: 'Nexora — Home' },
-  //   { property: 'og:description', content: 'Modern architecture and sustainable design solutions.' },
-  //   { property: 'og:type', content: 'website' }
-  // ]
-
-  // })
-
 </script>
 
 <style>

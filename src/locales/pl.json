@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "services": "Usługi",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+
+  "hero": {
+    "eyebrow": "Budujemy przyszłość",
+    "title": "Tworzymy przestrzenie, które inspirują.",
+    "subtitle": "Nexora to nowoczesne studio architektury dostarczające innowacyjne i zrównoważone rozwiązania projektowe.",
+    "cta": "Zobacz nasze projekty"
+  },
+
+  "features": {
+    "modernDesignTitle": "Nowoczesny design",
+    "modernDesignText": "Łączymy kreatywność, funkcjonalność i efektywność, aby urzeczywistnić Twoją wizję.",
+    "sustainableTitle": "Zrównoważone rozwiązania",
+    "sustainableText": "Przemyślane materiały i odpowiedzialne planowanie dla lepszej przyszłości.",
+    "managementTitle": "Zarządzanie projektem",
+    "managementText": "Od pierwszego szkicu po finalne przekazanie — dbamy o każdy szczegół.",
+    "craftsmanshipTitle": "Wysoka jakość wykonania",
+    "craftsmanshipText": "Precyzyjna realizacja i ścisła współpraca ze sprawdzonymi partnerami."
+  },
+
+  "projects": {
+    "kicker": "Wybrane realizacje",
+    "title": "Polecane projekty",
+    "viewAll": "Zobacz wszystkie projekty",
+    "villa": "Nowoczesna willa",
+    "office": "Budynek biurowy",
+    "greenResidence": "Zielona rezydencja",
+    "residential": "Mieszkalne",
+    "commercial": "Komercyjne"
+  },
+
+  "why": {
+    "kicker": "Dlaczego my",
+    "title": "Zmieniamy pomysły w wyjątkowe przestrzenie.",
+    "text": "Nasz zespół architektów i projektantów współpracuje z Tobą na każdym etapie, tworząc przestrzenie piękne, funkcjonalne i trwałe.",
+    "cta": "Dowiedz się więcej o nas"
+  },
+
+  "footer": {
+    "description": "Jesteśmy kreatywnym studiem architektury skupionym na nowoczesnym, funkcjonalnym i zrównoważonym projektowaniu.",
+    "quickLinks": "Szybkie linki",
+    "services": "Usługi",
+    "contact": "Kontakt",
+    "address": "ul. Architektów 10, 00-001 Warszawa",
+    "copyright": "© 2026 Nexora. Wszystkie prawa zastrzeżone."
+  },
+
+  "contactPage": {
+    "heroEyebrow": "Kontakt",
+    "heroTitle": "Stwórzmy razem coś wyjątkowego.",
+    "formTitle": "Skontaktuj się z nami",
+    "name": "Twoje imię",
+    "email": "Adres e-mail",
+    "phone": "Numer telefonu",
+    "message": "Twoja wiadomość",
+    "send": "Wyślij wiadomość",
+    "infoKicker": "Informacje kontaktowe",
+    "infoTitle": "Rozpocznij rozmowę.",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefon",
+    "addressLabel": "Adres",
+    "hoursLabel": "Godziny pracy",
+    "hours": "Pon – Pt: 9:00 – 17:00",
+    "ctaTitle": "Masz pomysł na projekt?",
+    "ctaText": "Stwórzmy razem coś niezwykłego.",
+    "ctaButton": "Rozpocznij projekt"
+  },
+
+  "aboutPage": {
+    "heroEyebrow": "O nas",
+    "heroTitle": "Projektujemy przestrzenie. Budujemy relacje.",
+
+    "storyKicker": "Nasza historia",
+    "storyTitle": "Powstaliśmy z pasji. Działamy z misją.",
+    "storyText1": "Nexora została założona w 2015 roku z prostą ideą — tworzyć przestrzenie piękne, funkcjonalne i zrównoważone.",
+    "storyText2": "Od tego czasu współpracujemy z klientami na całym świecie, realizując ich wizje poprzez przemyślany design i innowacyjne rozwiązania.",
+    "storyCta": "Nasze wartości",
+
+    "teamKicker": "Nasz zespół",
+    "teamTitle": "Poznaj ludzi stojących za naszym sukcesem.",
+    "teamCta": "Dołącz do zespołu",
+
+    "teamMembers": {
+      "janName": "Jan Kowalski",
+      "janRole": "Założyciel & Architekt",
+      "annaName": "Anna Nowak",
+      "annaRole": "Główny Projektant",
+      "piotrName": "Piotr Zieliński",
+      "piotrRole": "Kierownik Projektu"
+    },
+
+    "values": {
+      "missionKicker": "Nasza misja",
+      "missionTitle": "Tworzyć z celem.",
+      "missionText": "Tworzyć innowacyjną i zrównoważoną architekturę, która wzmacnia społeczności i inspiruje lepszy sposób życia.",
+
+      "visionKicker": "Nasza wizja",
+      "visionTitle": "Kształtować lepszą przyszłość.",
+      "visionText": "Być globalnym liderem w architekturze i designie, rozpoznawalnym dzięki kreatywności, jakości i uczciwości."
+    }
+  }
+}

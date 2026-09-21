@@ -4,17 +4,17 @@
       <div class="footer-grid">
         <div>
           <Logo />
-          <p>We are a creative architecture studio focused on modern, functional and sustainable design.</p>
+          <p>{{t('footer.description')}}</p>
         </div>
         <div>
-          <div class="footer-title">Quick Links</div>
+          <div class="footer-title">{{t('footer.quickLinks')}}</div>
           <div class="footer-links">
-            <router-link :to="{ name: 'home'}">Home</router-link>
-            <router-link :to="{ name: 'about'}">About</router-link>
+            <router-link :to="{ name: 'home'}">{{t('nav.home')}}</router-link>
+            <router-link :to="{ name: 'about'}">{{t('nav.about')}}</router-link>
             <router-link to="#">Services</router-link>
             <router-link to="#">Portfolio</router-link>
             <router-link to="#">Blog</router-link>
-            <router-link to="#">Contact</router-link>
+            <router-link to="#">{{t('footer.contact')}}</router-link>
           </div>
         </div>
         <div>
@@ -28,21 +28,23 @@
           </div>
         </div>
         <div>
-          <div class="footer-title">Contact</div>
+          <div class="footer-title">{{t('footer.contact')}}</div>
           <div class="footer-links">
             <a href="mailto:hello@nexora.com">hello@nexora.com</a>
             <a href="tel:+48123456789">+48 123 456 789</a>
-            <a href="#">ul. Architektów 10<br>00-001 Warsaw</a>
+            <a href="#">{{t('footer.address')}}</a>
           </div>
         </div>
       </div>
-      <div class="copyright">© 2026 Nexora. All rights reserved.</div>
+      <div class="copyright">{{t('footer.copyright')}}</div>
     </div>
   </footer>
 </template>
 
 <script setup>
   import Logo from '../ui/logo.vue'
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
 </script>
 
 <style scoped>

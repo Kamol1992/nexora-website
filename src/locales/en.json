@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "eyebrow": "Building the future",
+    "title": "We create spaces that inspire.",
+    "subtitle": "Nexora is a modern architecture studio delivering innovative and sustainable design solutions.",
+    "cta": "Explore our work"
+  },
+
+  "features": {
+    "modernDesignTitle": "Modern Design",
+    "modernDesignText": "We combine creativity, functionality and efficiency to bring your vision to life.",
+    "sustainableTitle": "Sustainable Solutions",
+    "sustainableText": "Thoughtful materials and responsible planning for a better future.",
+    "managementTitle": "Project Management",
+    "managementText": "From first sketch to final handover, we keep every detail moving.",
+    "craftsmanshipTitle": "Quality Craftsmanship",
+    "craftsmanshipText": "Precise execution and close collaboration with trusted partners."
+  },
+
+  "projects": {
+    "kicker": "Selected work",
+    "title": "Featured Projects",
+    "viewAll": "View all projects",
+    "villa": "Modern Villa",
+    "office": "Office Building",
+    "greenResidence": "Green Residence",
+    "residential": "Residential",
+    "commercial": "Commercial"
+  },
+
+  "why": {
+    "kicker": "Why choose us",
+    "title": "We turn ideas into exceptional spaces.",
+    "text": "Our team of architects and designers works closely with you at every stage of a project to create spaces that are beautiful, functional and made to last.",
+    "cta": "Learn more about us"
+  },
+
+  "footer": {
+    "description": "We are a creative architecture studio focused on modern, functional and sustainable design.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "address": "ul. Architektów 10, 00-001 Warsaw",
+    "copyright": "© 2026 Nexora. All rights reserved."
+  },
+
+  "contactPage": {
+    "heroEyebrow": "Contact",
+    "heroTitle": "Let's build something great together.",
+    "formTitle": "Get in touch",
+    "name": "Your name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "message": "Your message",
+    "send": "Send message",
+    "infoKicker": "Contact information",
+    "infoTitle": "Start a conversation.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "addressLabel": "Address",
+    "hoursLabel": "Office hours",
+    "hours": "Mon – Fri: 9:00 – 17:00",
+    "ctaTitle": "Have a project in mind?",
+    "ctaText": "Let's create something extraordinary together.",
+    "ctaButton": "Start a project"
+  },
+
+  "aboutPage": {
+    "heroEyebrow": "About us",
+    "heroTitle": "Designing spaces. Building relationships.",
+
+    "storyKicker": "Our story",
+    "storyTitle": "Founded on passion. Driven by purpose.",
+    "storyText1": "Nexora was founded in 2015 with a simple idea — to create spaces that are beautiful, functional and sustainable.",
+    "storyText2": "Since then, we have partnered with clients around the world to bring their ideas to life through thoughtful design and innovative solutions.",
+    "storyCta": "Our values",
+
+    "teamKicker": "Our team",
+    "teamTitle": "Meet the people behind our success.",
+    "teamCta": "Join our team",
+
+    "teamMembers": {
+      "janName": "Jan Kowalski",
+      "janRole": "Founder & Architect",
+      "annaName": "Anna Nowak",
+      "annaRole": "Lead Designer",
+      "piotrName": "Piotr Zieliński",
+      "piotrRole": "Project Manager"
+    },
+
+    "values": {
+      "missionKicker": "Our mission",
+      "missionTitle": "Create with purpose.",
+      "missionText": "To create innovative and sustainable architecture that enhances communities and inspires a better way of living.",
+
+      "visionKicker": "Our vision",
+      "visionTitle": "Shape a better future.",
+      "visionText": "To be a global leader in architecture and design, recognized for creativity, quality and integrity."
+    }
+  }
+}
