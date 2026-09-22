@@ -2,16 +2,18 @@
   <section class="cta">
     <div class="container cta-inner">
       <div>
-        <h2>Have a project in mind?</h2>
-        <p>Let's create something extraordinary together.</p>
+        <h2>{{t(`contactPage.ctaTitle`)}}</h2>
+        <p>{{t(`contactPage.ctaText`)}}</p>
       </div>
-      <Button href="#form" variant="gold">Start a project →</Button>
+      <Button href="#form" variant="gold">{{t(`contactPage.ctaButton`)}} →</Button>
     </div>
   </section>
 </template>
 
 <script setup>
   import Button from '../ui/button.vue'
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
 </script>
 
 <style>

@@ -1,8 +1,8 @@
 <template>
   <section class="page-hero" :style="{ backgroundImage: `url(${info.img})`}">
     <div class="container">
-      <div class="eyebrow">{{info.subPage}}</div>
-      <h1>{{info.title}}</h1>
+      <div class="eyebrow">{{t(info.subPage)}}</div>
+      <h1>{{t(info.title)}}</h1>
     </div>
   </section>
 </template>
@@ -10,14 +10,16 @@
 <script setup>
   import { useRoute } from 'vue-router'
   const route = useRoute()
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
   import aboutImg from '@/assets/images/about/photo-buildings-about.avif'
   import contactImg from '@/assets/images/about/photo-workspace-contact.avif'
-import { computed } from 'vue'
+  import { computed } from 'vue'
   console.log(route.name)
 
   const banerInfo = [
-    {img: aboutImg ,subPage: 'About us', title: `Designing spaces. Building relationships`, route: 'about'},
-    {img: contactImg ,subPage: 'Contact', title: `Let's build something great together.`, route: 'contact'}
+    {img: aboutImg ,subPage: 'aboutPage.heroEyebrow', title: `aboutPage.heroTitle`, route: 'about'},
+    {img: contactImg ,subPage: 'contactPage.heroEyebrow', title: `contactPage.heroTitle`, route: 'contact'}
   ]
 
   const info = computed(() =>{

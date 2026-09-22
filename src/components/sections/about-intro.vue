@@ -1,12 +1,12 @@
 <template>
   <section class="section"><div class="container about-intro">
-    <img :src="photoLivingRoom">
+    <img :src="photoLivingRoom" :alt="t(`aboutPage.altImage`)">
     <div class="about-copy">
-      <div class="section-kicker">Our story</div>
-      <h2>Founded on passion. Driven by purpose.</h2>
-      <p>Nexora was founded in 2015 with a simple idea — to create spaces that are beautiful, functional and sustainable.</p>
-      <p>Since then, we have partnered with clients around the world to bring their ideas to life through thoughtful design and innovative solutions.</p>
-      <Button href="/" >Our values <span>→</span></Button>
+      <div class="section-kicker">{{t(`aboutPage.storyKicker`)}}</div>
+      <h2>{{t(`aboutPage.storyTitle`)}}</h2>
+      <p>{{t(`aboutPage.storyText1`)}}</p>
+      <p>{{t(`aboutPage.storyText2`)}}</p>
+      <Button href="/" >{{t(`aboutPage.storyCta`)}} <span>→</span></Button>
     </div>
   </div>
   </section>
@@ -15,6 +15,9 @@
 <script setup>
 import Button from '../ui/button.vue'
 import photoLivingRoom from '@/assets/images/about/photo-living-room-about.avif'
+
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 
 </script>
 

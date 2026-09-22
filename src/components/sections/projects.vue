@@ -10,7 +10,7 @@
       </div>
       <div class="projects">
         <article v-for="(project, index) in projects" :key="index" class="project">
-          <img :src="project.img">
+          <img :src="project.img" :alt="`Photo - ` + t(`projects.${project.title}`)">
           <div class="project-body">
             <h3>{{t(`projects.${project.title}`)}}</h3>
             <span>{{t(`projects.${project.subtitle}`)}}</span>

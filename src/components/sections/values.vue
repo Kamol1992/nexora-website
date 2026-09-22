@@ -3,9 +3,9 @@
     <div class="container">
       <div class="values-grid">
         <article v-for="(value, index) in values" :key="index" class="value">
-          <div class="section-kicker">{{value.subtitle}}</div>
-          <h3>{{value.title}}</h3>
-          <p>{{value.content}}</p>
+          <div class="section-kicker">{{t(`aboutPage.values.${value.subtitle}`)}}</div>
+          <h3>{{t(`aboutPage.values.${value.title}`)}}</h3>
+          <p>{{t(`aboutPage.values.${value.content}`)}}</p>
         </article>
       </div>
     </div>
@@ -13,9 +13,11 @@
 </template>
 
 <script setup>
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
   const values = [
-    {title:'Create with purpose.', subtitle: 'Our mission' , content: 'To create innovative and sustainable architecture that enhances communities and inspires a better way of living.'},
-    {title:'Shape a better future.', subtitle: 'Our vision' , content: 'To be a global leader in architecture and design, recognized for creativity, quality and integrity.'},
+    {title:'missionTitle', subtitle: 'missionKicker' , content: 'missionText'},
+    {title:'visionTitle', subtitle: 'visionKicker' , content: 'visionText'},
   ]
 </script>
 

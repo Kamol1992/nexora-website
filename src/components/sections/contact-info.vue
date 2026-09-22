@@ -3,7 +3,7 @@
     <div class="section-kicker">Contact information</div>
     <h2>Start a conversation.</h2>
     <div v-for="(info, index) in infos" :key="index" class="info-item">
-      <strong>{{info.icon}} {{info.label}}</strong>
+      <strong>{{info.icon}} {{t(`contactPage.${info.label}`)}}</strong>
       <span>{{info.value}}</span>
     </div>
     <!-- <div class="info-item"><strong>☎ Phone</strong><span>+48 123 456 789</span></div>
@@ -13,11 +13,13 @@
 </template>
 
 <script setup>
+  import { useI18n } from 'vue-i18n'
+  const { t } = useI18n()
   const infos = [
-    {label: 'Email', value:'hello@nexora.com', icon: '✉'},
-    {label: 'Phone', value:'+48 123 456 789', icon: '☎'},
-    {label: 'Address', value:'ul. Architektów 10<br>00-001 Warsaw, Poland', icon: '⌖'},
-    {label: 'Office hours', value:'Mon – Fri: 9:00 – 17:00', icon: '◷'}
+    {label: 'emailLabel', value:'hello@nexora.com', icon: '✉'},
+    {label: 'phoneLabel', value:'+48 123 456 789', icon: '☎'},
+    {label: 'addressLabel', value:'ul. Architektów 10, 00-001 Warszawa', icon: '⌖'},
+    {label: 'hoursLabel', value:'Mon – Fri: 9:00 – 17:00', icon: '◷'}
   ]
 
 </script>
