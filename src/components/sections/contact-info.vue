@@ -1,14 +1,11 @@
 <template>
   <aside class="contact-info">
-    <div class="section-kicker">Contact information</div>
-    <h2>Start a conversation.</h2>
+    <div class="section-kicker">{{t(`contactPage.infoKicker`)}}</div>
+    <h2>{{t(`contactPage.infoTitle`)}}</h2>
     <div v-for="(info, index) in infos" :key="index" class="info-item">
       <strong>{{info.icon}} {{t(`contactPage.${info.label}`)}}</strong>
       <span>{{info.value}}</span>
     </div>
-    <!-- <div class="info-item"><strong>☎ Phone</strong><span>+48 123 456 789</span></div>
-    <div class="info-item"><strong>⌖ Address</strong><span>ul. Architektów 10<br>00-001 Warsaw, Poland</span></div>
-    <div class="info-item"><strong>◷ Office hours</strong><span>Mon – Fri: 9:00 – 17:00</span></div> -->
   </aside>
 </template>
 
