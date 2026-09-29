@@ -107,5 +107,34 @@
       "visionTitle": "Shape a better future.",
       "visionText": "To be a global leader in architecture and design, recognized for creativity, quality and integrity."
     }
+  },
+
+  "portfolioPage": {
+    "heroKicker": "Our Portfolio",
+    "heroTitle": "Spaces designed for a better life.",
+    "heroText": "Explore a selection of projects that reflect our passion for architecture, attention to detail and commitment to quality.",
+
+    "filters": {
+      "all": "All Projects",
+      "residential": "Residential",
+      "commercial": "Commercial",
+      "interior": "Interior",
+      "publicc": "Public"
+    },
+
+    "projects": {
+      "forestHouse": "Forest House",
+      "nexoraOffice": "Nexora Office",
+      "lakeViewVilla": "Lake View Villa",
+      "minimalWorkspace": "Minimal Workspace",
+      "cityLibrary": "City Library",
+      "hillsideRetreat": "Hillside Retreat"
+    },
+
+    "ctaTitle": "Have a project in mind?",
+    "ctaText": "We'd love to hear about your ideas and help you bring them to life.",
+    "ctaButton": "Let's talk →"
   }
+
+  
 }

@@ -107,5 +107,32 @@
       "visionTitle": "Kształtować lepszą przyszłość.",
       "visionText": "Być globalnym liderem w architekturze i designie, rozpoznawalnym dzięki kreatywności, jakości i uczciwości."
     }
+  },
+
+  "portfolioPage": {
+    "heroKicker": "Nasze portfolio",
+    "heroTitle": "Przestrzenie zaprojektowane dla lepszego życia.",
+    "heroText": "Poznaj wybrane projekty, które odzwierciedlają naszą pasję do architektury, dbałość o szczegóły i zaangażowanie w najwyższą jakość.",
+
+    "filters": {
+      "all": "Wszystkie projekty",
+      "residential": "Mieszkalne",
+      "commercial": "Komercyjne",
+      "interior": "Wnętrza",
+      "publicc": "Publiczne"
+    },
+
+    "projects": {
+      "forestHouse": "Leśny Dom",
+      "nexoraOffice": "Biuro Nexora",
+      "lakeViewVilla": "Willa z widokiem na jezioro",
+      "minimalWorkspace": "Minimalistyczne biuro",
+      "cityLibrary": "Biblioteka miejska",
+      "hillsideRetreat": "Wzgórzowa rezydencja"
+    },
+
+    "ctaTitle": "Masz pomysł na projekt?",
+    "ctaText": "Chętnie poznamy Twoje idee i pomożemy Ci je zrealizować.",
+    "ctaButton": "Porozmawiajmy →"
   }
 }
