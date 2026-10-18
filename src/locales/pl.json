@@ -134,5 +134,204 @@
     "ctaTitle": "Masz pomysł na projekt?",
     "ctaText": "Chętnie poznamy Twoje idee i pomożemy Ci je zrealizować.",
     "ctaButton": "Porozmawiajmy →"
+  },
+
+    "blogPage": {
+    "heroKicker": "Nasz blog",
+    "heroTitle": "Pomysły, inspiracje i wiedza.",
+    "heroText": "Dzielimy się wiedzą, historiami projektowymi oraz praktycznymi pomysłami dotyczącymi architektury i lepszego życia.",
+
+    "featured": {
+      "kicker": "Wyróżniony",
+      "title": "Jak architektura wpływa na sposób, w jaki żyjemy",
+      "date": "12 maja 2024",
+      "category": "Architektura",
+      "excerpt": "Dobra architektura to coś więcej niż estetyka. To tworzenie przestrzeni, które poprawiają codzienne życie i pozostają funkcjonalne przez lata.",
+      "readMore": "Czytaj więcej →"
+    },
+
+    "posts": {
+      "post1": {
+        "date": "28 kwietnia 2024",
+        "category": "Zrównoważony rozwój",
+        "title": "Zrównoważony design: budowanie przyszłości",
+        "excerpt": "Przemyślenia, praktyczne obserwacje i doświadczenia wynikające z naszego podejścia do tworzenia wartościowych przestrzeni.",
+        "readMore": "Czytaj więcej →"
+      },
+
+      "post2": {
+        "date": "15 kwietnia 2024",
+        "category": "Design",
+        "title": "10 zasad ponadczasowej architektury",
+        "excerpt": "Przemyślenia, praktyczne obserwacje i doświadczenia wynikające z naszego podejścia do tworzenia wartościowych przestrzeni.",
+        "readMore": "Czytaj więcej →"
+      },
+
+      "post3": {
+        "date": "2 kwietnia 2024",
+        "category": "Proces projektowy",
+        "title": "Kulisy pracy: proces projektowania",
+        "excerpt": "Przemyślenia, praktyczne obserwacje i doświadczenia wynikające z naszego podejścia do tworzenia wartościowych przestrzeni.",
+        "readMore": "Czytaj więcej →"
+      },
+      "post4": {
+        "date": "12 maja 2024",
+        "category": "Architektura",
+        "title": "Jak architektura wpływa na sposób, w jaki żyjemy",
+        "excerpt": "Dobra architektura to coś więcej niż estetyka. To tworzenie przestrzeni, które poprawiają codzienne życie i pozostają funkcjonalne przez lata.",
+        "readMore": "Czytaj więcej →"
+      }
+    },
+
+    "sidebar": {
+      "searchTitle": "Szukaj",
+      "searchPlaceholder": "Szukaj artykułów...",
+
+      "categoriesTitle": "Kategorie",
+
+      "categories": {
+        "all": "Wszystkie",
+        "architecture": "Architektura",
+        "interiorDesign": "Projektowanie wnętrz",
+        "sustainability": "Zrównoważony rozwój",
+        "design": "Design",
+        "news": "Aktualności"
+      },
+
+      "recentPostsTitle": "Najnowsze wpisy",
+      "BackToBlog": "Powrót do artykułów"
+    },
+
+    "newsletter": {
+      "title": "Zapisz się do newslettera",
+      "text": "Otrzymuj najnowsze artykuły i aktualności bezpośrednio na swoją skrzynkę.",
+      "placeholder": "Twój adres e-mail",
+      "button": "Subskrybuj →"
+    },
+
+    "pagination": {
+      "next": "Następna →"
+    }
+  },
+
+
+  
+  "posts": {
+    "architecture-shapes-life": {
+      "category": "Architektura",
+      "title": "Jak architektura kształtuje sposób, w jaki żyjemy",
+      "date": "12 maja 2024",
+      "readTime": "7 min czytania",
+      "seoDescription": "Dowiedz się, jak architektura wpływa na sposób, w jaki żyjemy, kształtując komfort, samopoczucie i codzienne nawyki poprzez przemyślany projekt, naturalne światło i trwałe materiały.",
+
+      "intro": {
+        "paragraph1": "Architektura często opisywana jest przez materiały, proporcje i formę. Jednak przestrzenie wokół nas wpływają na sposób, w jaki poruszamy się, pracujemy, odpoczywamy i budujemy relacje.",
+        "paragraph2": "Dobrze zaprojektowany dom tworzy wartościowe codzienne doświadczenia, od porannego światła po wspólne przestrzenie sprzyjające spotkaniom."
+      },
+
+      "quote": "Dobra architektura nie polega wyłącznie na tworzeniu pięknych przestrzeni. Chodzi o tworzenie lepszych warunków do codziennego życia.",
+
+      "section1": {
+        "title": "Projektowanie zaczyna się od zachowań",
+        "paragraph": "Zanim powstanie pierwszy szkic, architekt powinien zrozumieć sposób korzystania z przestrzeni i codzienne potrzeby użytkowników."
+      },
+
+      "section2": {
+        "title": "Światło i materiały",
+        "paragraph1": "Naturalne światło zmienia charakter wnętrza w ciągu dnia.",
+        "paragraph2": "Starannie dobrane materiały zapewniają trwałość, komfort i wyjątkowy charakter przestrzeni."
+      },
+
+      "section3": {
+        "title": "Projektowanie dla przyszłości",
+        "paragraph1": "Elastyczne przestrzenie mogą dostosowywać się do nowych technologii i zmieniającego się stylu życia.",
+        "paragraph2": "Myślenie długoterminowe pozwala budynkom zachować wartość przez wiele lat."
+      },
+
+      "tags": [
+        "Architektura",
+        "Projektowanie",
+        "Mieszkalnictwo",
+        "Inspiracje"
+      ]
+    },
+
+    "sustainable-design-principles": {
+      "category": "Architektura",
+      "title": "Zasady zrównoważonego projektowania nowoczesnych domów",
+      "date": "2 czerwca 2024",
+      "readTime": "6 min czytania",
+      "seoDescription": "Poznaj zasady zrównoważonego projektowania nowoczesnych domów, obejmujące efektywność energetyczną, ekologiczne materiały oraz rozwiązania architektoniczne ograniczające wpływ na środowisko.",
+
+      "intro": {
+        "paragraph1": "Zrównoważone projektowanie skupia się na ograniczaniu wpływu na środowisko przy jednoczesnym zwiększaniu komfortu życia.",
+        "paragraph2": "Każda decyzja, od wyboru materiałów po orientację budynku, wpływa na jego efektywność."
+      },
+
+      "quote": "Zrównoważony rozwój nie jest dodatkiem do projektu. Jest jego podstawą.",
+
+      "section1": {
+        "title": "Efektywność energetyczna",
+        "paragraph": "Dobrze izolowane budynki zużywają mniej energii na ogrzewanie i chłodzenie."
+      },
+
+      "section2": {
+        "title": "Odpowiedzialny dobór materiałów",
+        "paragraph1": "Lokalne i odnawialne materiały ograniczają emisje związane z transportem.",
+        "paragraph2": "Trwałe materiały pomagają ograniczać ilość odpadów."
+      },
+
+      "section3": {
+        "title": "Myślenie długoterminowe",
+        "paragraph1": "Najbardziej zrównoważone domy projektowane są z myślą o wielu pokoleniach.",
+        "paragraph2": "Elastyczna architektura ogranicza konieczność kosztownych przebudów."
+      },
+
+      "tags": [
+        "Zrównoważony rozwój",
+        "Środowisko",
+        "Ekologia",
+        "Domy"
+      ]
+    },
+
+    "future-of-urban-living": {
+      "category": "Architektura",
+      "title": "Przyszłość życia w mieście",
+      "date": "18 czerwca 2024",
+      "readTime": "8 min czytania",
+      "seoDescription": "Odkryj przyszłość życia w miastach dzięki spacerowym dzielnicom, inteligentnej infrastrukturze i zrównoważonemu planowaniu urbanistycznemu, które poprawiają jakość życia mieszkańców.",
+
+      "intro": {
+        "paragraph1": "Miasta zmieniają się pod wpływem wzrostu populacji, nowych technologii i wymagań środowiskowych.",
+        "paragraph2": "Nowoczesna urbanistyka musi równoważyć gęstość zabudowy, dostępność usług oraz jakość życia."
+      },
+
+      "quote": "Miasta przyszłości powinny być projektowane wokół ludzi, a nie ruchu samochodowego.",
+
+      "section1": {
+        "title": "Społeczności przyjazne pieszym",
+        "paragraph": "Przyszłe osiedla będą projektowane tak, aby większość codziennych potrzeb można było realizować pieszo."
+      },
+
+      "section2": {
+        "title": "Inteligentna infrastruktura",
+        "paragraph1": "Technologie cyfrowe pomagają zarządzać transportem, energią i przestrzenią publiczną.",
+        "paragraph2": "Celem jest zwiększenie efektywności bez utraty ludzkiego wymiaru miasta."
+      },
+
+      "section3": {
+        "title": "Odporne miasta",
+        "paragraph1": "Współczesne miasta muszą odpowiadać na wyzwania środowiskowe i społeczne.",
+        "paragraph2": "Kluczową rolę odgrywają elastyczne przestrzenie publiczne oraz zrównoważona infrastruktura."
+      },
+
+      "tags": [
+        "Urbanistyka",
+        "Miasta",
+        "Innowacje",
+        "Przyszłość"
+      ]
+    }
   }
 }

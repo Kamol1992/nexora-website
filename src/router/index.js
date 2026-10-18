@@ -7,7 +7,7 @@ const routes = [
     component: () => import('../views/Home.vue')
   },
   {
-    path: '/about',
+    path: '/o-nas',
     name: 'about',
     component: () => import('../views/About.vue')
   },
@@ -17,7 +17,17 @@ const routes = [
     component: () => import('../views/Portfolio.vue')
   },
   {
-    path: '/contact',
+    path: '/blog',
+    name: 'blog',
+    component: () => import('../views/Blog.vue')
+  },
+  {
+    path: '/blog/:slug',
+    name: 'blog-post',
+    component: () => import('../views/Blog-post.vue')
+  },
+  {
+    path: '/kontakt',
     name: 'contact',
     component: () => import('../views/Contact.vue')
   },

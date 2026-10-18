@@ -134,7 +134,205 @@
     "ctaTitle": "Have a project in mind?",
     "ctaText": "We'd love to hear about your ideas and help you bring them to life.",
     "ctaButton": "Let's talk →"
+  },
+
+  "blogPage": {
+    "heroKicker": "Our Blog",
+    "heroTitle": "Ideas, inspiration and insights.",
+    "heroText": "We share our knowledge, design stories and practical ideas on architecture and living better.",
+
+    "featured": {
+      "kicker": "Featured",
+      "title": "How architecture shapes the way we live",
+      "date": "May 12, 2024",
+      "category": "Architecture",
+      "excerpt": "Good architecture is more than aesthetics. It is about creating spaces that improve everyday life and stand the test of time.",
+      "readMore": "Read more →"
+    },
+
+    "posts": {
+      "post1": {
+        "date": "April 28, 2024",
+        "category": "Sustainability",
+        "title": "Sustainable design: building for the future",
+        "excerpt": "Thoughts, practical observations and lessons from our approach to creating meaningful spaces.",
+        "readMore": "Read more →"
+      },
+
+      "post2": {
+        "date": "April 15, 2024",
+        "category": "Design",
+        "title": "10 principles of timeless architecture",
+        "excerpt": "Thoughts, practical observations and lessons from our approach to creating meaningful spaces.",
+        "readMore": "Read more →"
+      },
+
+      "post3": {
+        "date": "April 2, 2024",
+        "category": "Process",
+        "title": "Behind the scenes: The design process",
+        "excerpt": "Thoughts, practical observations and lessons from our approach to creating meaningful spaces.",
+        "readMore": "Read more →"
+      },
+      "post4": {
+        "date": "May 12, 2024",
+        "category": "Architecture",
+        "title": "How architecture shapes the way we live",
+        "excerpt": "Good architecture is more than aesthetics. It is about creating spaces that improve everyday life and stand the test of time.",
+        "readMore": "Read more →"
+      }
+    },
+
+    "sidebar": {
+      "searchTitle": "Search",
+      "searchPlaceholder": "Search articles...",
+
+      "categoriesTitle": "Categories",
+
+      "categories": {
+        "all": "All",
+        "architecture": "Architecture",
+        "interiorDesign": "Interior Design",
+        "sustainability": "Sustainability",
+        "design": "Design",
+        "news": "News"
+      },
+
+      "recentPostsTitle": "Recent Posts",
+      "BackToBlog": "Back to articles"
+    },
+
+    "newsletter": {
+      "title": "Subscribe to our newsletter",
+      "text": "Get the latest articles and updates delivered to your inbox.",
+      "placeholder": "Your email address",
+      "button": "Subscribe →"
+    },
+
+    "pagination": {
+      "next": "Next →"
+    }
+  },
+
+
+  "posts": {
+    "architecture-shapes-life": {
+      "category": "Architecture",
+      "title": "How architecture shapes the way we live",
+      "date": "May 12, 2024",
+      "readTime": "7 min read",
+      "seoDescription": "Explore how architecture influences daily life through thoughtful design, natural light, quality materials, and adaptable spaces that improve comfort and well-being.",
+
+      "intro": {
+        "paragraph1": "Architecture is often described through materials, proportions and form. Yet the spaces around us influence the way we move, work, rest and interact with other people.",
+        "paragraph2": "A successful home creates meaningful everyday experiences, from natural morning light to shared spaces that bring people together."
+      },
+
+      "quote": "Good architecture is not only about creating beautiful spaces. It is about creating better conditions for everyday life.",
+
+      "section1": {
+        "title": "Design begins with behavior",
+        "paragraph": "Before any sketches are made, architects should understand how people use a space and how their daily routines shape their needs."
+      },
+
+      "section2": {
+        "title": "Light and material",
+        "paragraph1": "Natural light changes the atmosphere of a room throughout the day.",
+        "paragraph2": "Carefully selected materials add character, warmth and long-term durability."
+      },
+
+      "section3": {
+        "title": "Built for the future",
+        "paragraph1": "Flexible spaces can adapt to new technologies and changing lifestyles.",
+        "paragraph2": "Designing with longevity in mind helps buildings remain relevant for decades."
+      },
+
+      "tags": [
+        "Architecture",
+        "Design",
+        "Residential",
+        "Ideas"
+      ]
+    },
+
+    "sustainable-design-principles": {
+      "category": "Architecture",
+      "title": "Sustainable design principles for modern homes",
+      "date": "June 2, 2024",
+      "readTime": "6 min read",
+      "seoDescription": "Discover sustainable design principles for modern homes, including energy efficiency, eco-friendly materials, and long-term architectural solutions that reduce environmental impact.",
+
+      "intro": {
+        "paragraph1": "Sustainable design focuses on reducing environmental impact while improving quality of life.",
+        "paragraph2": "Every choice, from materials to orientation, contributes to the long-term performance of a building."
+      },
+
+      "quote": "Sustainability is not an added feature. It is a core design responsibility.",
+
+      "section1": {
+        "title": "Energy efficiency",
+        "paragraph": "Well-insulated buildings require less energy for heating and cooling throughout the year."
+      },
+
+      "section2": {
+        "title": "Responsible materials",
+        "paragraph1": "Renewable and locally sourced materials reduce transportation and production emissions.",
+        "paragraph2": "Durable materials also decrease waste over the building lifecycle."
+      },
+
+      "section3": {
+        "title": "Long-term thinking",
+        "paragraph1": "The most sustainable homes are designed to serve multiple generations.",
+        "paragraph2": "Adaptable architecture reduces the need for major renovations in the future."
+      },
+
+      "tags": [
+        "Sustainability",
+        "Environment",
+        "Green Design",
+        "Homes"
+      ]
+    },
+
+    "future-of-urban-living": {
+      "category": "Architecture",
+      "title": "The future of urban living",
+      "date": "June 18, 2024",
+      "readTime": "8 min read",
+      "seoDescription": "Explore the future of urban living through walkable communities, smart infrastructure, and resilient city planning designed to improve sustainability and quality of life.",
+
+      "intro": {
+        "paragraph1": "Cities are changing rapidly due to population growth, technology and sustainability goals.",
+        "paragraph2": "Urban environments need to balance density, accessibility and quality of life."
+      },
+
+      "quote": "The cities of tomorrow must be designed around people, not traffic.",
+
+      "section1": {
+        "title": "Walkable communities",
+        "paragraph": "Future neighborhoods will prioritize pedestrian access to everyday services and amenities."
+      },
+
+      "section2": {
+        "title": "Smart infrastructure",
+        "paragraph1": "Digital technology can improve transportation, energy management and public services.",
+        "paragraph2": "The goal is to create efficient systems without sacrificing human experience."
+      },
+
+      "section3": {
+        "title": "Resilient cities",
+        "paragraph1": "Urban communities must respond to environmental and social challenges.",
+        "paragraph2": "Flexible public spaces and sustainable systems are essential for long-term success."
+      },
+
+      "tags": [
+        "Urban Design",
+        "Cities",
+        "Innovation",
+        "Future"
+      ]
+    }
   }
+}
 
   
-}

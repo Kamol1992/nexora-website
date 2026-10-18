@@ -22,6 +22,13 @@
     activeFilter.value = filter
   }
 
+  import { useSeo } from '@/composables/useSeo'
+
+  useSeo({
+    title: 'Nexora — Portfolio',
+    description: 'Designing apartments that inspire everyday living. I create modern, well-balanced interiors where functionality meets aesthetics, delivering personalized spaces that reflect the character and needs of their residents.'
+  })
+
 </script>
 
 <style>

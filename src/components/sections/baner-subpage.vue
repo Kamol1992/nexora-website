@@ -16,13 +16,15 @@
   import aboutImg from '@/assets/images/about/photo-buildings-about.avif'
   import contactImg from '@/assets/images/about/photo-workspace-contact.avif'
   import portfolioImg from '@/assets/images/baner/photo-baner.avif'
+  import blogImg from '@/assets/images/baner/photo-library-room.avif'
   import { computed } from 'vue'
   console.log(route.name)
 
   const banerInfo = [
     {img: aboutImg ,subPage: 'aboutPage.heroEyebrow', title: `aboutPage.heroTitle`, text:"" , route: 'about'},
     {img: contactImg ,subPage: 'contactPage.heroEyebrow', title: `contactPage.heroTitle`, text:"" , route: 'contact'},
-    {img: portfolioImg ,subPage: 'portfolioPage.heroKicker', title: `portfolioPage.heroTitle`, text:"portfolioPage.heroText" , route: 'portfolio'}
+    {img: portfolioImg ,subPage: 'portfolioPage.heroKicker', title: `portfolioPage.heroTitle`, text:"portfolioPage.heroText" , route: 'portfolio'},
+    {img: blogImg ,subPage: 'blogPage.heroKicker', title: `blogPage.heroTitle`, text:"blogPage.heroText" , route: 'blog'}
   ]
 
   const info = computed(() =>{

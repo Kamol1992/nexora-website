@@ -3,6 +3,7 @@
       <router-link :to="{ name: 'home' }">{{t('nav.home')}}</router-link>
       <router-link :to="{ name: 'about' }">{{t('nav.about')}}</router-link>
       <router-link :to="{ name: 'portfolio' }">{{t('nav.portfolio')}}</router-link>
+      <router-link :to="{ name: 'blog' }">{{t('nav.blog')}}</router-link>
       <router-link :to="{ name: 'contact' }">{{t('nav.contact')}}</router-link>
   </nav>
 </template>
